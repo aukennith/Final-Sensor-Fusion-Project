@@ -14,9 +14,9 @@ Wrote code within the file student/filter.py to implement this step.
 4. Implemented the update() function as well as the gamma() and S() functions for residual and residual covariance. Implemented this step with lidar measurements model.
 
 
-<img src="img/step1.plot.png"/>
+<img src="img/step1.plot.jpg"/>
 Single target tracking results
-<img src="img/step1.rmse.png"/>
+<img src="img/step1.rmse.jpg"/>
 The mean RMSE is 0.28 which is smaller than 0.35
 
 ## Track Management
@@ -41,7 +41,7 @@ Wrote code within the student/association.py file to implement this step.
 7. Between track and measurement returned numpy.nan for the track and measurement
 The visualization shows that there are no confirmed “ghost tracks” that do not exist in reality. There are initialized and tentative “ghost tracks” as long as they are deleted after several frames.
 
-<img src="img/step-3.png"/> 
+<img src="img/step-3.jpg"/> 
 Tracking result with three tracks from Sequence 1 
 
 ## Sensor Fusion of LiDAR and camera
@@ -54,7 +54,7 @@ Wrote code within the student/measurements.py file to implement this step.
 The visualization shows that the tracking performs well, again no confirmed ghost tracks or track losses should occur.
 
 
-<img src="img/step-4.png"/> 
+<img src="img/step-4.jpg"/> 
 RMSE for the three valid tracks in Sequence 1
 
 ## Difficulty I faced
