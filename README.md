@@ -62,10 +62,10 @@ All step to-do implementation is described in detail but I faced difficulty in s
 
 ## Benefits in camera-lidar fusion compared to lidar-only tracking
 Theoretical explanation of LiDAR and Camera.
-## Camera Sensor 
+### Camera Sensor 
 *	Cameras excel at classifying objects such as vehicles, pedestrians, speed signs and many others. This is one of the prime advantages of camera systems and recent advances in AI emphasize this even stronger.
 *	Camera systems are the only sensor able to interpret two-dimensional information such as speed signs, lane markings or traffic lights, as they are able to measure both color and light intensity. This is the primary advantage of cameras over the other sensor types.
-## LiDAR Sensor
+### LiDAR Sensor
 *	LiDAR have an excellent robustness in darkness, as it is active sensor.
 *	LiDAR system can detect objects at distances ranging from a few meters to more than 200m.
 More specifically, vision-based approaches are more robust and accurate in object detection but fail in estimating the distance of the object accurately. In contrast, LiDAR-based methods are very robust and accurate in measuring the distance of the object but are limited by the object classification ability.
