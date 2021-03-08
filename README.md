@@ -63,11 +63,11 @@ All step to-do implementation is described in detail but I faced difficulty in s
 ## Benefits in camera-lidar fusion compared to lidar-only tracking
 Theoretical explanation of LiDAR and Camera.
 ## Camera Sensor 
-•	Cameras excel at classifying objects such as vehicles, pedestrians, speed signs and many others. This is one of the prime advantages of camera systems and recent advances in AI emphasize this even stronger.
-•	Camera systems are the only sensor able to interpret two-dimensional information such as speed signs, lane markings or traffic lights, as they are able to measure both color and light intensity. This is the primary advantage of cameras over the other sensor types.
+*	Cameras excel at classifying objects such as vehicles, pedestrians, speed signs and many others. This is one of the prime advantages of camera systems and recent advances in AI emphasize this even stronger.
+*	Camera systems are the only sensor able to interpret two-dimensional information such as speed signs, lane markings or traffic lights, as they are able to measure both color and light intensity. This is the primary advantage of cameras over the other sensor types.
 ## LiDAR Sensor
-•	LiDAR have an excellent robustness in darkness, as it is active sensor.
-•	LiDAR system can detect objects at distances ranging from a few meters to more than 200m.
+*	LiDAR have an excellent robustness in darkness, as it is active sensor.
+*	LiDAR system can detect objects at distances ranging from a few meters to more than 200m.
 More specifically, vision-based approaches are more robust and accurate in object detection but fail in estimating the distance of the object accurately. In contrast, LiDAR-based methods are very robust and accurate in measuring the distance of the object but are limited by the object classification ability.
 Camera-LiDAR fusion will increase the robustness and accuracy of the tracking system.
 In our project when we used Camera-LiDAR fusion which has a wider range of vision that means it can detects more objects accurately.
@@ -75,8 +75,8 @@ In our project when we used Camera-LiDAR fusion which has a wider range of visio
 ## Challenges will a sensor fusion system face in real-life scenarios
 The fusion of light detection and ranging (LiDAR) and camera data in real-time is known to be a crucial process in many applications, especially in the case of autonomous vehicles.
 Sensor fusion has been around for some time, but has been evolving at an accelerated rate in recent years. New technologies like multisensory data fusion, big data processing, and deep learning are changing the quality of areas of applications, improving sensors and systems used. This project allows us to handle some typical challenges in real-life sensor fusion and tracking algorithm, including
-•	It is difficult to get an accurate association between multiple tracks and multiple measurement. A good gating threshold helps to increase accuracy because whenever it perfectly rejects incorrect measurement and track pair tracking works better.
-•	It is also difficult for measurement noise configuration. In fact, it's better that each measurement should come with its own noise variance, as opposed to setting a fixed noise variance for a sensor
+* It is difficult to get an accurate association between multiple tracks and multiple measurement. A good gating threshold helps to increase accuracy because whenever it perfectly rejects incorrect measurement and track pair tracking works better.
+* It is also difficult for measurement noise configuration. In fact, it's better that each measurement should come with its own noise variance, as opposed to setting a fixed noise variance for a sensor
 To calibrate the LiDAR and camera sensors and involves the estimation of the extrinsic parameters along with the camera’s intrinsic parameters. In real-life project one common challenge is this project does not experience is extrinsic parameters calibration. The camera’s intrinsic parameters need to be estimated by using the traditional checkerboard calibration method, and the LiDAR and camera’s extrinsic parameters need to be estimated using a planar 3D marker board. A correct configuration for lidar and camera extrinsic parameter is vital to the success of a sensor fusion and tracking project. In this project, these extrinsic parameters are known as we are using a public dataset.
 
 ## Improvements of tracking results in the future
