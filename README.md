@@ -27,7 +27,7 @@ Wrote code within the student/trackmanagement.py file to implement this step.
 4. In the Trackmanagement class, implemented the manage_track to decrease the track score for unassigned tracks and delete tracks if the score is too low or P is too big.
 5. In the Trackmanagement class, implemented the handle_updated_track() function to increase the track score for the input track and set the track state to 'tentative' or 'confirmed' depending on the track score.
 The visualization shows that a new track is initialized automatically where unassigned measurements occur, the true track is confirmed quickly, and the track is deleted after it has vanished from the visible range.
-<img src="img/step-2.png"/> 
+<img src="img/step-2.jpg"/> 
 RMSE plot
 
 ## Data Association
